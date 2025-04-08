@@ -10,8 +10,8 @@ sql:
   engine: postgresql
   codegen:
   - plugin: py
-    out: python
+    out: db
     options:
-      package: querytest
+      package: db
       emit_sync_querier: true
       emit_async_querier: true
